@@ -1,11 +1,162 @@
 <html>
-    <head>
-        <title>作業-七巧板-鑽石-聖誕樹-冰淇淋-自訂圖案</title>
-        <style>
+<head>
+  <title>班級:112座號:13姓名:葉柏德-七巧板</title>
+  <style>
+    #d1 {
+      width: 200px;
+      height: 200px;
+      margin: 50px auto;/*auto:上下左右的距離自動分配:D*/
+      position: relative;
+    }
+    #d2 {
+      width: 100px;
+      height: 20px;
+      background-color: skyblue;
+      position: absolute;
+      top: -9px;
+      left: 50px;
+    }
+    #d3 {
+      width: 110px;
+      height: 40px;
+      background-color: skyblue;
+      position: absolute;
+      top: 11px;
+      left: 83px;
+      transform: rotate(120deg);
+      transform-origin: left top;
+    }
+    #d4 {
+      width: 110px;
+      height: 40px;
+      background-color: skyblue;
+      position: absolute;
+      top: 11px;
+      left: 7px;
+      transform: rotate(-120deg);
+      transform-origin: right top;
+    }
+    #d5{
+      width: 140px;
+      height: 140px;
+      background-color: skyblue;
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      transform: rotate(45deg);
+    }
+    #tree-t{
+     width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 40px solid #76c29c; 
+      margin: 0 auto -10px auto;
+    }
+    #tree-m {
+    width: 0;
+      height: 0;
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-bottom: 60px solid #468356; 
+      margin: 0 auto -10px auto;
+    }
+    #tree-b {
+       width: 0;
+      height: 0;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 80px solid #087c27; 
+      margin: 0 auto -10px auto;
+    }
+    #tree-bottom-b {
+       width: 30px;
+      height: 50px;
+      background-color: sienna;
+      margin: 10 auto 50px auto;
+     
+    }
+    #ice-t{
+      width: 100px;
+      height: 50px;
+      background-color: black;
+      border-radius: 50% 50% 0 0;
+      margin: 0 auto -10px auto;
+    }
+    #ice-m{
+      width: 100px;
+      height: 50px;
+      background-color: pink;
+      border-radius: 50% 50% 0 0;
+      margin: 0 auto -10px auto;
+    }
+    #ice-c{
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 120px solid orange;
+      margin: 0 auto 50px auto;
+    }
+    #b1 {
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      margin: 5px auto;
+    }
+    #b2 {
+      width: 40px;
+      height: 40px;
+      background-color: yellow;
+      margin: 5px auto;
+    }
+    #b3 {
+      width: 40px;
+      height: 40px;
+      background-color: green;
+      margin: 5px auto;
+    }
+    #b4 {
+      width: 40px;
+      height: 40px;
+      background-color: blue;
+      margin: 5px auto;
+    }
+    #b5 {
+      width: 40px;
+      height: 40px;
+      background-color: purple;
+      margin: 5px auto;
+    }
+  </style>
+</head>
+<body>
 
-        </style>
-    </head>
-    <body>
-        <div id="d1"></div>
-    </body>
+  <h2>鑽石</h2>
+  <div id="d1">
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <div id="d5"></div>
+  </div>
+
+  <h2>聖誕樹</h2>
+  <div id="tree-t"></div>
+  <div id="tree-m"></div>
+  <div id="tree-b"></div>
+  <div id="tree-bottom-b"></div>
+
+  <h2>冰淇淋BlackPink</h2>
+  <div id="ice-t"></div>
+  <div id="ice-m"></div>
+  <div id="ice-c"></div>
+
+  <h2>創意發想--抱歉我知道很爛</h2>
+  <div id="b1"></div>
+  <div id="b2"></div>
+  <div id="b3"></div>
+  <div id="b4"></div>
+  <div id="b5"></div>
+
+</body>
 </html>
