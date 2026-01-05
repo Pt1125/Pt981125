@@ -1,6 +1,30 @@
 <html>
     <head>
-        <title>期末作業</title>
-        
+        <meta charset="utf-8">
+        <title>點方塊遊戲</title>
+        <style>
+            body{
+                text-align: center;
+                font-family: Arial;
+            }
+            #gamearea{
+                width: 300px;
+                height: 300px;
+                border: 2px solid black;
+                margin: 20px auto;
+                position: relative;
+            }
+            #box{
+                width: 50;
+                height: 50px;
+                background-color: skyblue;
+                position: absolute;
+                cursor: pointer;
+            }
+        </style>
     </head>
+    <body>
+        <h2>點方塊遊戲</h2>
+        <div id="score">分數 : 0</div>
+    </body>
 </html>
